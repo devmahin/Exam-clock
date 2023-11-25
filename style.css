@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 .time{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
     text-align: center;
-    gap: 20px;
     color: #ffff;
+    gap: 30px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
 }
 .hours{
     background-color: rgb(2, 126, 235);
